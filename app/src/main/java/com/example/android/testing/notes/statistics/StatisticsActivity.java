@@ -34,7 +34,7 @@ public class StatisticsActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_statistics);
 
-        //crash();
+        crash();
         // Set up the toolbar.
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

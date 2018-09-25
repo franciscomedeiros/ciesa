@@ -50,7 +50,7 @@ public class NotesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notes);
 
         AppCenter.start(getApplication(), "94436071-8218-492c-8751-449b8b85a2a4", Analytics.class, Crashes.class, Distribute.class);
-        //Crashes.getLastSessionCrashReport();
+        Crashes.getLastSessionCrashReport();
         // Set up the toolbar.
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
